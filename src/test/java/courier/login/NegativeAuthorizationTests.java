@@ -12,7 +12,6 @@ import org.junit.Test;
 public class NegativeAuthorizationTests {
     private final CourierChecks check = new CourierChecks();
     int courierId;
-    String errorCode;
 
     @Before
     public void setUp() {
